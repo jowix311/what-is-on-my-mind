@@ -37,7 +37,7 @@ export const FilePreviewForm = () => {
       formData.append("files", values.files[i]);
     }
 
-    console.log("The form data is: ", formData);
+    console.info("The form data is: ", formData);
   };
 
   return (
