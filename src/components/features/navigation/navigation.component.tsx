@@ -8,10 +8,10 @@ import Link from "next/link";
 
 export const Navigation = () => {
   return (
-    <NavigationMenu>
-      <NavigationMenuList className="flex w-full flex-row justify-center gap-3">
+    <NavigationMenu className="container">
+      <NavigationMenuList className="flex w-full flex-row justify-center gap-3 p-4">
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
+          <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink>Home</NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -21,7 +21,7 @@ export const Navigation = () => {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/tailwind" legacyBehavior passHref>
+          <Link href="/some-tailwind" legacyBehavior passHref>
             <NavigationMenuLink>Tailwind</NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
