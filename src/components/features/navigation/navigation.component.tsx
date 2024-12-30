@@ -25,6 +25,11 @@ export const Navigation = () => {
             <NavigationMenuLink>Tailwind</NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+        <NavigationMenuItem>
+          <Link href="/some-cookies" legacyBehavior passHref>
+            <NavigationMenuLink>Cookies</NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   );
